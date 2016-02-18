@@ -24,7 +24,7 @@ Currently RobotController only supports symmetrical maps, only square maps at th
 
 Graphics Credits:
 
-Robot by Black: http://opengameart.org/content/mech-1
-Hole by Chotkos: http://opengameart.org/content/spinblade-pro-spinblades-set
-Spinner by Clint Bellanger: http://opengameart.org/content/teleporter-circle
-Rock by MystiqMiu: http://opengameart.org/content/basic-boulder
+Robot by Black: http://opengameart.org/content/mech-1  
+Hole by Chotkos: http://opengameart.org/content/spinblade-pro-spinblades-set  
+Spinner by Clint Bellanger: http://opengameart.org/content/teleporter-circle  
+Rock by MystiqMiu: http://opengameart.org/content/basic-boulder  
