@@ -17,10 +17,43 @@ There are two files necessary for the software to run successfully: rules.xml an
 
 rules.xml contains the schema for how interactions are mapped to values.  The interaction values are represented as an unsigned 8-bit value.  Names are represented as strings.  
 
+Example rules.xml: 
+```
+<ruleset>
+	<rule name="none">
+		<interactionvalue>0</interactionvalue>
+	</rule>
+	<rule name="rock">
+		<interactionvalue>1</interactionvalue>
+	</rule>
+	<rule name="hole">
+		<interactionvalue>2</interactionvalue>
+	</rule>
+	<rule name="spinner">
+		<interactionvalue>3</interactionvalue>
+	</rule>
+</ruleset>
+```
+
 map.csv contains the shape and tile information for a map.  The numbers represented on the CSV are directly correlated to the rules.xml and should be configured accordingly.
 ***Note: if editing with Excel, Excel will lock the file and RoboController will be unable to read the file.  Please close Excel to read normally.***
 
 Currently RobotController only supports symmetrical maps, only square maps at the moment.  
+
+Example map.csv: 
+```
+0,3,0,0,0,3,0,0,3,0
+0,0,0,0,0,0,0,0,0,2
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+2,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0
+3,0,0,0,0,0,0,0,0,1
+0,0,0,0,3,0,0,0,1,0
+
+```
 
 Graphics Credits:
 
