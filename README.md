@@ -1,6 +1,8 @@
 # RobotController
 A solution for controling robots
 
+![](http://i.imgur.com/zXPypTp.png)
+
 Build Requirements
 
 The visualization component requires MonoGame 3.4 in order to build.  You can download MonoGame from here: http://www.monogame.net/downloads/
