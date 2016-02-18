@@ -21,3 +21,10 @@ map.csv contains the shape and tile information for a map.  The numbers represen
 ***Note: if editing with Excel, Excel will lock the file and RoboController will be unable to read the file.  Please close Excel to read normally.***
 
 Currently RobotController only supports symmetrical maps, only square maps at the moment.  
+
+Graphics Credits:
+
+Robot by Black: http://opengameart.org/content/mech-1
+Hole by Chotkos: http://opengameart.org/content/spinblade-pro-spinblades-set
+Spinner by Clint Bellanger: http://opengameart.org/content/teleporter-circle
+Rock by MystiqMiu: http://opengameart.org/content/basic-boulder
